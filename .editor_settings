@@ -1,24 +1,16 @@
 {
   :code {
     :find {
-      :term "init"
+      :term "light"
     }
   }
   :search-in-files {
     :exts ""
     :include-libraries true
-    :term "src.Modules.Render.Backend.RenderScriptToolkit"
+    :term "\"start\""
   }
   :workflow {
     :recent-files [
-      [
-        "/src/Content/Objects/GothicCabinet_01_cabinet.go"
-        :scene
-      ]
-      [
-        "/src/Content/Levels/Level_01/Level.script"
-        :code
-      ]
       [
         "/src/Cylinder.glb"
         :scene
@@ -60,10 +52,6 @@
         :cljfx-form-view
       ]
       [
-        "/src/Modules/Render/Backend/Nodes/RenderRoot.collection"
-        :scene
-      ]
-      [
         "/resources/Assets/Meshes/crowbar_01.glb"
         :scene
       ]
@@ -72,20 +60,12 @@
         :scene
       ]
       [
-        "/src/Content/Prefabs/Player/Player.script"
-        :code
-      ]
-      [
         "/src/Content/Rooms/Scene.script"
         :code
       ]
       [
         "/src/render.render_script"
         :code
-      ]
-      [
-        "/src/Content/Prefabs/Player/Player.collection"
-        :scene
       ]
       [
         "/src/Modules/Render/Backend/RenderScriptToolkit.lua"
@@ -104,10 +84,6 @@
         :code
       ]
       [
-        "/src/Main.collection"
-        :scene
-      ]
-      [
         "/src/Content/Objects/scene.go"
         :scene
       ]
@@ -120,10 +96,6 @@
         :scene
       ]
       [
-        "/walker/dummy/dummy.collection"
-        :scene
-      ]
-      [
         "/game.project"
         :cljfx-form-view
       ]
@@ -132,12 +104,40 @@
         :scene
       ]
       [
+        "/src/Main.script"
+        :code
+      ]
+      [
+        "/license.txt"
+        :code
+      ]
+      [
+        "/src/Main.collection"
+        :scene
+      ]
+      [
+        "/src/Modules/Render/Backend/Nodes/RenderRoot.collection"
+        :scene
+      ]
+      [
         "/src/Content/Rooms/Scene.collection"
         :scene
       ]
       [
-        "/src/Main.script"
+        "/src/Content/Prefabs/Player/Player.collection"
+        :scene
+      ]
+      [
+        "/src/Content/Prefabs/Player/Player.script"
         :code
+      ]
+      [
+        "/src/Modules/Render/Scene/Nodes/SpotLight.script"
+        :code
+      ]
+      [
+        "/walker/dummy/dummy.collection"
+        :scene
       ]
     ]
   }
