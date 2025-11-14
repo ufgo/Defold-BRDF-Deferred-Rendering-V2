@@ -23,7 +23,7 @@ embedded_components {
   "    texture: \"/src/Assets/Textures/black.png\"\n"
   "  }\n"
   "}\n"
- ""
+  ""
 }
 embedded_components {
   id: "SceneCollision"
@@ -33,7 +33,7 @@ embedded_components {
   "friction: 0.1\n"
   "restitution: 0.5\n"
   "group: \"default\"\n"
-  "mask: \"default\"\n"
+  "mask: \"walker\"\n"
   "embedded_collision_shape {\n"
   "  shapes {\n"
   "    shape_type: TYPE_BOX\n"
@@ -43,10 +43,6 @@ embedded_components {
   "      z: 0.045337\n"
   "    }\n"
   "    rotation {\n"
-  "      x: 0.0\n"
-  "      y: 0.0\n"
-  "      z: 0.0\n"
-  "      w: 1.0\n"
   "    }\n"
   "    index: 0\n"
   "    count: 3\n"

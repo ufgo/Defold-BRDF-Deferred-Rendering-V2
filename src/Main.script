@@ -9,7 +9,7 @@ end
 
 function init(self)
 	Core:main()
-
+	window.set_mouse_lock(true)
 
 	Core:load_proxy({
 		proxy_url = "/proxy#scene_collectionproxy",

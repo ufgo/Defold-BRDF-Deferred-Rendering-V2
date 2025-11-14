@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 .editor_settings
+=======
+/.editor_settings
+>>>>>>> Stashed changes
 /.internal
 /build
 .DS_Store

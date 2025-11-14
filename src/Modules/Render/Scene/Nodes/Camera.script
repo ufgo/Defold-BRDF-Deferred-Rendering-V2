@@ -7,7 +7,7 @@ function init(self)
 	msg.post(".", "start")
 end
 local function start(self)
-	self.camera_comp = msg.url("#camera")
+	self.camera_comp = msg.url("Scene:/operator/camera#camera")
 
 	self.world = Core:get_world()
 	self.id = self.world:create_camera(self.tag)

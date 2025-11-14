@@ -19,6 +19,7 @@ heap_size = 512
 [project]
 title = Defold-BRDF-Deferred-Rendering-V2
 developer = martianov https://t.me/martianov
+dependencies#0 = https://github.com/astrochili/defold-operator/archive/refs/tags/1.5.3.zip
 
 [native_extension]
 app_manifest = /app.appmanifest
@@ -35,6 +36,7 @@ opengl_core_profile_hint = 1
 width = 1920
 height = 1080
 high_dpi = 1
+update_frequency = 60
 
 [mesh]
 max_count = 256
@@ -43,4 +45,7 @@ max_count = 256
 type = 3D
 use_fixed_timestep = 1
 max_fixed_timesteps = 1
+
+[input]
+game_binding = /builtins/input/all.input_bindingc
 
